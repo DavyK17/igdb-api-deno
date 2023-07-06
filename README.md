@@ -2,6 +2,8 @@
 
 > This is an IGDB client for Deno
 
+![Deno IGDB](deno-igdb.svg)
+
 ## Getting Started
 
 To start working with the client you need to create an
@@ -12,7 +14,7 @@ Once you have a `clientId` and `clientSecret` then you
 are ready to start using the client, so for that.
 
 ```typescript
-import { IgdbClient } from 'https://deno.land/x/igdb-api/mod.ts'
+import { IgdbClient } from 'https://deno.land/x/igdb_api/mod.ts'
 
 const client = new IgdbClient(<your-client-id>, <your-client-secret>)
 
