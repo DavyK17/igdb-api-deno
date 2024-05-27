@@ -1,4 +1,4 @@
-import "https://deno.land/std@0.224.0/dotenv/load.ts";
+import "https://deno.land/std@0.188.0/dotenv/load.ts";
 import { IgdbClient } from "./mod.ts";
 
 const client = new IgdbClient(Deno.env.get("IGDB_CLIENT_ID")!, Deno.env.get("IGDB_CLIENT_SECRET")!);
